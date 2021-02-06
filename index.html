@@ -1,0 +1,220 @@
+<!-- Water Design? Have landing page like a lake and it ripples-->
+<!-- Space Design? Astronaut follow mouse or turn around planet-->
+<!-- Indie kind of background-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">  
+  <title>Datathon 2021</title>
+  <link rel="icon" href="assets/tab favicon.png">
+  <meta name="description" content="Datathon Website">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css"> 
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Prata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav id='navigation' class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+    <div class="container" >
+      <a class="navbar-brand" href="#" id='nav-home'>Datathon 2021</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id = 'nav-about-me'></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id = 'nav-information'>Background Information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id='nav-agency'>Agencies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id='nav-vendor'>Vendors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id='nav-method'>Advanced Methodology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id='nav-search'>Search</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <h1 class="ml16" id='intro' style='font-size: 40px;'>COVER PAGE</h1>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <span id='down'>&#8595;</span>
+  </header>
+  <div id ='back'>
+  <section id='information' style= ' padding-top:0px;'>
+    <div class='row'>
+      <div class='col-lg-4'></div>
+    </div>
+    <div class="container" style='height: 100vh;'>
+      <h1 style="text-align:center">Background Information</h1>
+      <hr style = "border: 1px solid darkblue;">
+      <div class='row'>
+        <div class="col-lg-1"></div> 
+        <div class="col-lg-10">
+          <br>
+          <p style='font-size: 18px;'>
+            
+          </p>      
+          <p style='font-size: 18px;'>
+            BACKGROUND INFORMATION ABOUT THE PROJECT
+          </p>
+        </div> 
+      
+        
+      </div>
+    </div>
+  </section>
+
+  <section id = 'agency'>
+    <div class='container' >
+      <!-- Grid lay out experience-->
+      <h1 style="text-align:center">Agency Information </h1>
+      <hr style = "border: 1px solid darkblue;">
+      <div class = 'row'>
+        <div class = 'col-lg-1'></div>
+          <div class="col-lg-10">
+          <p>
+            INFO ABOUT GRAPHIC BELOW
+        </div> 
+      </div>
+    <div class="holder">
+        <img src="assets/agency_dendrogram.png" />
+    </div>
+    </div>
+
+</section>
+<section id = 'vendor'>
+  <h1 style=  "text-align:center">Vendor Findings</h1>
+  <hr style = "border: 1px solid darkblue;">
+  <br>
+  <div class='container'>
+    <div class = 'row'>
+        <div class = 'col-lg-1'></div>
+          <div class="col-lg-10">
+          <p>
+            INFO ABOUT VENDOR GRAPHIC
+        </div> 
+      </div>
+    <div class='row'>
+        <div class="col-lg-1"></div> 
+        <div class="holder">
+            <img src="assets/vendor_dendrogram.png" />
+        </div>
+    </div>
+  </div>    
+</section>
+
+<section id = 'method'>
+    <div class='container' >
+      <!-- Grid lay out experience-->
+      <h1 style="text-align:center">Advanced Methodology </h1>
+      <hr style = "border: 1px solid darkblue;">
+      <div class = 'row'>
+        <div class = 'col-lg-1'></div>
+          <div class="col-lg-10">
+          <p>
+            INFO ABOUT ADVANCED METHODOLOGY
+        </div> 
+      </div>
+    </div>
+
+    <section id = 'search'>
+        <div class='container' >
+          <!-- Grid lay out experience-->
+          <h1 style="text-align:center">Search Function </h1>
+          <hr style = "border: 1px solid darkblue;">
+          <div class = 'row'>
+            <div class = 'col-lg-1'></div>
+              <div class="col-lg-10">
+              <p>
+                EMBED WEB APP IN THIS SECTION
+            </div> 
+          </div>
+        </div>
+
+
+<!--JQuery to scroll to div-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+  $("#nav-home").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+});
+	$(document).ready( function () {
+	$('#nav-information').on('click',function () {
+		 $('html, body').animate({
+        scrollTop: $("#information").offset().top
+    }, 1000);
+	});
+  $('#nav-agency').on('click',function () {
+		 $('html, body').animate({
+        scrollTop: $("#agency").offset().top
+    }, 1000);
+	});
+  $('#nav-vendor').on('click',function () {
+		 $('html, body').animate({
+        scrollTop: $("#vendor").offset().top
+    }, 1000);
+	});
+    $('#nav-search').on('click',function () {
+		 $('html, body').animate({
+        scrollTop: $("#search").offset().top
+    }, 1000);
+	});
+    $('#nav-method').on('click',function () {
+		 $('html, body').animate({
+        scrollTop: $("#method").offset().top
+    }, 1000);
+	});
+  $('#down').on('click',function () {
+		 $('html, body').animate({
+        scrollTop: $("#about-me").offset().top
+    }, 1000);
+	});
+    
+  $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+$(window).scroll(function(){
+  var $win = $(window);
+  var winH = $win.height();
+	$('#navigation').toggleClass('scrolled', $(this).scrollTop() > winH);
+});
+
+//Test Code
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml16');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline()
+
+.add({
+    targets: '.ml16 .letter',
+    translateY: [-100,0],
+    easing: "easeOutExpo",
+    delay: (el, i) => 30 * i
+  })
+
+});
+
+</script>
+</body>
+</html>
